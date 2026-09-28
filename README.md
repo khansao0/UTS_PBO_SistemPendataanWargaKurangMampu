@@ -136,7 +136,7 @@ menutup program, nanti ada output "Terima kasih telah menggunakan program ini" <
 
 ---  
 
-## 6. Penerapan Nilai Tambah 
+## 6. Tambahan
 1. Polymorphism menggunakan method overriding, Saya terapkan pada method tampilkanInfo() di subclass WargaLansia dan WargaDisabilitas. Method ini meng override method tampilkanInfo() milik superclass Warga agar bisa mencetak data spesifik tiap kategori (seperti umur dan kondisi kesehatan untuk lansia, serta jenis disabilitas dan kebutuhan alat bantu untuk disabilitas). Sedangkan Method Overloading Diterapkan pada kelas DataPusatWarga :
      - tambahWarga(Warga warga) dan tambahWarga(Warga warga, String catatan)
      - tampilkanSemuaWarga() dan tampilkanSemuaWarga(int minTanggungan)
