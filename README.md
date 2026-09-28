@@ -115,8 +115,7 @@ Menampilkan daftar semua warga yang ada di dalam ArrayList lengkap dengan katego
 <img width="500" alt="WhatsApp Image 2026-09-21 at 8 55 44 PM" src="https://github.com/user-attachments/assets/c4d071e8-e9e3-4d61-8779-985737f06755" />
 
 3. **Ubah Data Warga (Update):**
-Pengguna memasukkan nomor data warga yang ingin diubah. Buat menghapus data warga dari daftar kalau memang sudah tidak diperlukan lagi, cukup ketik nomor data yang mau dihapus (contoh memilih nomor data 3).
-Nanti ada pemberitahuan "Data warga berhasil dihapus!" <br>
+Pengguna memasukkan nomor data warga yang ingin diubah, lalu memasukkan data pembaruan seperti nama baru, alamat baru, jumlah tanggungan, pendapatan, dan status rumah. Setelah berhasil, nanti ada pemberitahuan 'Data warga berhasil diperbarui!" <br>
 
 <img width="500" alt="WhatsApp Image 2026-09-21 at 9 03 18 PM" src="https://github.com/user-attachments/assets/ee2d9bfb-c7bf-4cfb-8282-f6b57f04796a" />
 
