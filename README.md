@@ -119,7 +119,7 @@ Pengguna memasukkan nomor data warga yang ingin diubah, lalu memasukkan data pem
 
 <img width="500" alt="WhatsApp Image 2026-09-21 at 9 03 18 PM" src="https://github.com/user-attachments/assets/ee2d9bfb-c7bf-4cfb-8282-f6b57f04796a" />
 
-5. **Hapus Data Warga (Delete):**
+4. **Hapus Data Warga (Delete):**
 Buat menghapus data warga dari list kalau memang sudah tidak diperlukan lagi, cukup ketik nomor data yang mau dihapus. <br>
 
 <img width="500" alt="WhatsApp Image 2026-09-21 at 9 04 10 PM" src="https://github.com/user-attachments/assets/f42e8f0a-2382-49c2-bb44-b111031c0b27" />
