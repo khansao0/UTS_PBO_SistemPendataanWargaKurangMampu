@@ -106,9 +106,8 @@ Kita bisa memasukkan NIK, nama, alamat, sama jumlah tanggungan. Nanti datanya ak
 
 <img width="500" alt="WhatsApp Image 2026-09-21 at 9 00 32 PM" src="https://github.com/user-attachments/assets/58c67b1c-d7e4-4980-b8b2-bf67e574f41e" /> <br>
 
-tampilan saat sudah ditambah <br>
-<img width="500" alt="WhatsApp Image 2026-09-21 at 9 01 18 PM" src="https://github.com/user-attachments/assets/a910d990-7c5d-4fe5-88d5-b1247b98e92e" />
-
+tampilan saat sudah ditambah <br> pada gambar ini saya menerapkan overloading saat data ditambah agar enak untuk dilihat tampilannya.
+<img width="500" alt="WhatsApp Image 2026-09-28 at 8 09 07 PM" src="https://github.com/user-attachments/assets/fe0b0d2b-d671-4ede-b41d-91bd7c9557af" />
 
 2. **Tampilkan Data Warga (Read):**
 Menampilkan daftar semua warga yang ada di dalam ArrayList lengkap dengan kategori dan kriteria kemiskinannya. Dipakai buat mengecek dan menampilkan semua daftar warga yang sudah tersimpan di sistem. Di sini langsung tampil data warga lansia (Mbah Maimunah) dan warga disabilitas (Rahmat Hidayat) hasil dari dummy data. <br>
@@ -137,8 +136,10 @@ menutup program, nanti ada output "Terima kasih telah menggunakan program ini" <
 
 ---  
 
-## 6. Penerapan Nilai Tambah  
-1. Polymorphism menggunakan method overriding, Saya terapkan pada method tampilkanInfo() di subclass WargaLansia dan WargaDisabilitas. Method ini meng override method tampilkanInfo() milik superclass Warga agar bisa mencetak data spesifik tiap kategori (seperti umur dan kondisi kesehatan untuk lansia, serta jenis disabilitas dan kebutuhan alat bantu untuk disabilitas).  
+## 6. Penerapan Nilai Tambah 
+1. Polymorphism menggunakan method overriding, Saya terapkan pada method tampilkanInfo() di subclass WargaLansia dan WargaDisabilitas. Method ini meng override method tampilkanInfo() milik superclass Warga agar bisa mencetak data spesifik tiap kategori (seperti umur dan kondisi kesehatan untuk lansia, serta jenis disabilitas dan kebutuhan alat bantu untuk disabilitas). Sedangkan Method Overloading Diterapkan pada kelas DataPusatWarga :
+     - tambahWarga(Warga warga) dan tambahWarga(Warga warga, String catatan)
+     - tampilkanSemuaWarga() dan tampilkanSemuaWarga(int minTanggungan)
 
 2. konsep Inheritance (mewariskan atribut umum dari class Warga ke class WargaLansia dan WargaDisabilitas) dan Polymorphism (meng-override method tampilkanInfo() agar tampilan tiap kategori warga bisa menyesuaikan secara dinamis).
  
